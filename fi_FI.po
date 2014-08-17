@@ -2,366 +2,288 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
+"Project-Id-Version: Roots\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Ismo Vuorinen <ivuorinen@gmail.com>\n"
-"Language-Team: \n"
+"Last-Translator: Ville Ristimäki <ville.ristimaki@nordsoftware.com>\n"
+"Language-Team:  <ville.ristimaki@nordsoftware.com>\n"
 "MIME-Version: 1.0\n"
-"X-Poedit-Language: Finnish\n"
-"X-Poedit-Country: FINLAND\n"
+"X-Generator: Poedit 1.6.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fi\n"
 
-#. Text in echo
-#: comments.php:80
-#: comments.php:84
-msgid " (required)"
-msgstr "(pakollinen)"
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Pahoittelut, hakemaasi sivua ei löydy."
 
-#. Text in echo
-#: inc/roots-options.php:127
-#: inc/roots-options.php:129
-msgid "#main CSS Classes"
-msgstr "#main CSS-luokat"
+#: 404.php:7
+msgid "It looks like this was the result of either:"
+msgstr "Tämä voi johtua seuraavista asioista:"
 
-#. Text in echo
-#: inc/roots-options.php:137
-#: inc/roots-options.php:139
-msgid "#sidebar CSS Classes"
-msgstr "#sidebar CSS-luokat"
+#: 404.php:9
+msgid "a mistyped address"
+msgstr "kirjoitusvirhe osoitteessa"
 
-#. Text in function
-#: comments.php:46
-msgid "% Responses to"
-msgstr "% vastausta artikkeliin"
+#: 404.php:10
+msgid "an out-of-date link"
+msgstr "vanhentunut linkki"
 
-#. Text in function
-#: comments.php:8
-msgid "%1$s"
-msgstr "%1$s"
+#: base.php:6
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Käytössäsi on <strong>vanhentunut</strong> selain, mikä ei välttämättä tue "
+"sivun vaatimia tekniikoita. Ole hyvä ja <a href=\"http://browsehappy.com/"
+"\">päivitä</a> käyttämäsi selain."
 
-#. Text in function
-#: inc/roots-options.php:94
-msgid "%s Theme Options"
-msgstr "%s-teeman asetukset"
+#: functions.php:29
+msgid "Error locating %s for inclusion"
+msgstr "Virhe yritettäessä sisällyttää %s liitteeseen"
 
-#. Text in function
-#: comments.php:53
-msgid "&larr; Older comments"
-msgstr "&larr; Vanhemmat kommentit"
+#: index.php:5
+msgid "Sorry, no results were found."
+msgstr "Pahoittelut, ei hakutuloksia"
 
-#. Text in function
-#: loop-search.php:33
-#: loop.php:37
+#: index.php:17
 msgid "&larr; Older posts"
 msgstr "&larr; Vanhemmat artikkelit"
 
-#. Text in function
-#: comments.php:9
-msgid "(Edit)"
-msgstr "(muokkaa)"
-
-#. Text in function
-#: inc/roots-options.php:1
-msgid "1140"
-msgstr "1140"
-
-#. Text in function
-#: inc/roots-options.php:1
-msgid "960gs (12 cols)"
-msgstr "960gs (12 palstaa)"
-
-#. Text in function
-#: inc/roots-options.php:1
-msgid "960gs (16 cols)"
-msgstr "960gs (16 palstaa)"
-
-#. Text in function
-#: inc/roots-options.php:1
-msgid "960gs (24 cols)"
-msgstr "960gs (24 palstaa)"
-
-#. Text in function
-#: comments.php:7
-msgid "<cite class=\"fn\">%s</cite>"
-msgstr "<cite class=\"fn\">%s</cite>"
-
-#. Text in function
-#: inc/roots-options.php:1
-msgid "Adapt.js"
-msgstr "Adapt.js"
-
-#. Text in echo
-#: page-sitemap.php:18
-msgid "Archives"
-msgstr "Arkistot"
-
-#. Text in function
-#: inc/roots-options.php:1
-msgid "Blueprint CSS"
-msgstr "Blueprint CSS"
-
-#. Text in echo
-#: inc/roots-options.php:106
-#: inc/roots-options.php:108
-msgid "CSS Grid Framework"
-msgstr "CSS Grid runkorakenne"
-
-#. Text in echo
-#: 404.php:13
-msgid "Check your spelling"
-msgstr "Tarkista oikeinkirjoitus"
-
-#. Text in echo
-#: inc/roots-widgets.php:61
-msgid "City/Locality:"
-msgstr "Kaupunki/Sijainti:"
-
-#. Text in echo
-#: 404.php:15
-msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
-msgstr "Klikkaa <a href=\"javascript:history.back()\">Takaisin</a>-nappia"
-
-#. Text in echo
-#: comments.php:93
-msgid "Comment"
-msgstr "Kommentti"
-
-#. Text in echo
-#: comments.php:63
-msgid "Comments are closed."
-msgstr "Kommentit ovat suljettu."
-
-#. Text in function
-#: inc/roots-cleanup.php:1
-msgid "Continued"
-msgstr "Jatkettu"
-
-#. Text in function
-#: inc/roots-options.php:132
-#: inc/roots-options.php:142
-msgid "Default: %s"
-msgstr "Oletus: %s"
-
-#. Text in echo
-#: comments.php:84
-msgid "Email (will not be published)"
-msgstr "Sähköposti (ei julkaista)"
-
-#. Text in echo
-#: inc/roots-widgets.php:77
-msgid "Email:"
-msgstr "Sähköposti:"
-
-#. Text in function
-#: inc/roots-options.php:152
-msgid "Enter your UA-XXXXX-X ID"
-msgstr "Anna UA-XXXX-X -koodisi"
-
-#. Text in echo
-#: 404.php:7
-msgid "File Not Found"
-msgstr "Tiedostoa ei löydetty"
-
-#. Text in echo
-#: inc/roots-options.php:147
-#: inc/roots-options.php:149
-msgid "Google Analytics ID"
-msgstr "Google Analytics -tunniste"
-
-#. Text in echo
-#: index.php:7
-msgid "Latest Posts"
-msgstr "Viimeisimmät artikkelit"
-
-#. Text in function
-#: comments.php:70
-msgid "Leave a Reply"
-msgstr "Jätä kommentti"
-
-#. Text in function
-#: comments.php:70
-msgid "Leave a Reply to %s"
-msgstr "Jätä kommenttisi artikkeliin %s"
-
-#. Text in echo
-#: comments.php:77
-msgid "Log out &raquo;"
-msgstr "Kirjaudu ulos &raquo;"
-
-#. Text in function
-#: comments.php:77
-msgid "Log out of this account"
-msgstr "Kirjaudu ulos tästä tunnuksesta"
-
-#. Text in function
-#: comments.php:77
-msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "Kirjautuneena tunnuksella <a href=\"%s/wp-admin/profile.php\">%s</a>."
-
-#. Text in echo
-#: comments.php:80
-msgid "Name"
-msgstr "Nimi"
-
-#. Text in function
-#: comments.php:54
-msgid "Newer comments &rarr;"
-msgstr "Uudemmat kommentit &rarr;"
-
-#. Text in function
-#: loop-search.php:34
-#: loop.php:38
+#: index.php:18
 msgid "Newer posts &rarr;"
 msgstr "Uudemmat artikkelit &rarr;"
 
-#. Text in function
-#: comments.php:46
-msgid "No Responses to"
-msgstr "Ei kommentteja artikkeliin"
+#: lib/activation.php:28 lib/activation.php:29
+msgid "Theme Activation"
+msgstr "Teeman aktivointi"
 
-#. Text in function
-#: comments.php:46
-msgid "One Response to"
-msgstr "Yksi kommentti artikkeliin"
+#: lib/activation.php:50
+msgid "%s Theme Activation"
+msgstr "%s - teeman aktivointi"
 
-#. Text in echo
-#: page-sitemap.php:14
-msgid "Pages"
-msgstr "Sivut"
+#: lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+"Nämä asetukset ovat valinnaisia, joita tulisi käyttää ainoastaan uudessa "
+"asennuksessa"
 
-#. Text in function
-#: loop-page.php:7
-#: loop-single.php:17
-msgid "Pages:"
-msgstr "Sivut:"
+#: lib/activation.php:59 lib/activation.php:62
+msgid "Create static front page?"
+msgstr "Luodaanko staattinen etusivu?"
 
-#. Text in function
-#: comments.php:28
-msgid "Please do not load this page directly. Thanks!"
-msgstr "Ethän lataa tätä sivua suoraan. Kiitos!"
+#: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
+#: lib/activation.php:100
+msgid "Yes"
+msgstr "Kyllä"
 
-#. Text in function
-#: inc/roots-htaccess.php:1
-msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writeable "
-msgstr "Tarkistathan että <a href=\"%s\">.htaccess</a>-tiedostosi on muokattavissa"
+#: lib/activation.php:65 lib/activation.php:77 lib/activation.php:89
+#: lib/activation.php:101
+msgid "No"
+msgstr "Ei"
 
-#. Text in echo
-#: 404.php:11
-msgid "Please try the following:"
-msgstr "Kokeilethan seuraavaa:"
+#: lib/activation.php:67
+msgid "Create a page called Home and set it to be the static front page"
+msgstr "Luo sivu nimeltä Etusivu ja aseta se staattiseksi etusivuksi?"
 
-#. Text in function
-#: inc/roots-admin.php:1
-msgid "Please update your <a href=\"%s\">site tagline</a>"
-msgstr "Päivitäthän <a href=\"%s\">sivustosi kuvauksen</a>"
+#: lib/activation.php:71
+msgid "Change permalink structure?"
+msgstr "Vaihdetaanko osoiterakenne?"
 
-#. Text in function
-#: loop-single.php:8
-#: loop-search.php:16
-#: loop.php:16
-msgid "Posted on %s at %s."
-msgstr "Julkaistu %s klo %s."
+#: lib/activation.php:74
+msgid "Update permalink structure?"
+msgstr "Päivitetäänkö osoiterakenne?"
 
-#. Text in echo
-#: page-sitemap.php:16
-msgid "Posts"
-msgstr "Artikkelit"
+#: lib/activation.php:79
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr "Vaihdetaanko osoiterakenne muotoon /&#37;postname&#37;/?"
 
-#. Text in function
-#: 404.php:14
-msgid "Return to the <a href=\"%s\">home page</a>"
-msgstr "Palaa <a href=\"%s\">etusivulle</a>"
+#: lib/activation.php:83 lib/activation.php:86
+msgid "Create navigation menu?"
+msgstr "Luodaanko valikko?"
 
-#. Text in function
-#: inc/roots-widgets.php:1
-msgid "Roots: vCard"
-msgstr "Roots: vCard"
+#: lib/activation.php:91
+msgid "Create the Primary Navigation menu and set the location"
+msgstr "Luodaanko päävalikko ja asetetaan sille lokaatio?"
 
-#. Text in echo
-#: searchform.php:3
-#: searchform.php:4
-msgid "Search"
-msgstr "Hae"
+#: lib/activation.php:95 lib/activation.php:98
+msgid "Add pages to menu?"
+msgstr "Lisätäänkö sivut päävalikkoon?"
 
-#. Text in echo
-#: search.php:7
-msgid "Search Results for"
-msgstr "Hakutulokset haulle"
+#: lib/activation.php:103
+msgid "Add all current published pages to the Primary Navigation"
+msgstr "Lisätäänkö kaikki julkaistut sivut päävalikkoon?"
 
-#. Text in echo
-#: searchform.php:2
-msgid "Search for:"
-msgstr "Hae termillä:"
+#: lib/activation.php:126 lib/activation.php:147
+msgid "Home"
+msgstr "Etusivu"
 
-#. Text in echo
-#: loop-search.php:4
-#: loop.php:4
-msgid "Sorry, no results were found."
-msgstr "Pahoittelut, ei hakutuloksia."
+#: lib/activation.php:173 lib/activation.php:176 lib/activation.php:190
+#: lib/init.php:13
+msgid "Primary Navigation"
+msgstr "Päävalikko"
 
-#. Text in echo
-#: inc/roots-widgets.php:65
-msgid "State/Region:"
-msgstr "Osavaltio/Alue:"
+#: lib/extras.php:6
+msgid "Continued"
+msgstr "Jatkuu"
 
-#. Text in echo
-#: inc/roots-widgets.php:57
-msgid "Street Address:"
-msgstr "Katuosoite:"
+#: lib/init.php:36
+msgid "Primary"
+msgstr "Ensisijainen"
 
-#. Text in echo
-#: comments.php:96
+#: lib/init.php:45
+msgid "Footer"
+msgstr "Footer"
+
+#: lib/titles.php:10
+msgid "Latest Posts"
+msgstr "Uusimmat artikkelit"
+
+#: lib/titles.php:19
+msgid "Daily Archives: %s"
+msgstr "Päiväkohtaiset artikkelit: %s"
+
+#: lib/titles.php:21
+msgid "Monthly Archives: %s"
+msgstr "Kuukausikohtaiset artikkelit: %s"
+
+#: lib/titles.php:23
+msgid "Yearly Archives: %s"
+msgstr "Vuosikohtaiset artikkelit: %s"
+
+#: lib/titles.php:26
+msgid "Author Archives: %s"
+msgstr "Kirjoittajakohtaiset artikkelit: %s"
+
+#: lib/titles.php:31
+msgid "Search Results for %s"
+msgstr "Hakutulokset termille %s"
+
+#: lib/titles.php:33
+msgid "Not Found"
+msgstr "Sivua ei löytynyt"
+
+#: templates/comment.php:4
+msgid "%1$s"
+msgstr "%1$s"
+
+#: templates/comment.php:5
+msgid "(Edit)"
+msgstr "(Muokkaa)"
+
+#: templates/comment.php:9
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa moderointia."
+
+#: templates/comments.php:9
+msgid "One Response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Yksi vastaus artikkeeliin &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Vastausta artikkeliin &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: templates/comments.php:30 templates/comments.php:35
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: templates/comments.php:42
+msgid "Leave a Reply"
+msgstr "Jätä kommentti"
+
+#: templates/comments.php:42
+msgid "Leave a Reply to %s"
+msgstr "Jätä kommentti artikkeliin %s"
+
+#: templates/comments.php:45
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Sinun täytyy <a href=\"%s\">kirjautua</a> voidaksesi kommentoida."
+
+#: templates/comments.php:50
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Kirjauduttu nimellä <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: templates/comments.php:51
+msgid "Log out of this account"
+msgstr "Kirjaudu ulos"
+
+#: templates/comments.php:51
+msgid "Log out &raquo;"
+msgstr "Kirjaudu ulos &raquo;"
+
+#: templates/comments.php:55
+msgid "Name"
+msgstr "Nimi"
+
+#: templates/comments.php:55 templates/comments.php:59
+msgid " (required)"
+msgstr " (pakollinen)"
+
+#: templates/comments.php:59
+msgid "Email (will not be published)"
+msgstr "Sähköposti (ei julkaista)"
+
+#: templates/comments.php:63
+msgid "Website"
+msgstr "Kotisivu"
+
+#: templates/comments.php:68
+msgid "Comment"
+msgstr "Kommentti"
+
+#: templates/comments.php:71
 msgid "Submit Comment"
 msgstr "Lähetä kommentti"
 
-#. Text in echo
-#: inc/roots-widgets.php:73
-msgid "Telephone:"
-msgstr "Puhelinnumero:"
+#: templates/content-single.php:11
+msgid "Pages:"
+msgstr "Sivut:"
 
-#. Text in echo
-#: 404.php:9
-msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
-msgstr "Hakemasi sivu on mahdollisesti poistettu, sen nimi on muutettu, tai se ei ole väliaikasesti saatavilla."
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "By"
 
-#. Text in function
-#: inc/roots-options.php:1
-msgid "Theme Options"
-msgstr "Teeman asetukset"
+#: templates/searchform.php:2
+msgid "Search for:"
+msgstr "Hae termillä:"
 
-#. Text in echo
-#: comments.php:36
-msgid "This post is password protected. Enter the password to view comments."
-msgstr "Tämä artikkeli on salasanasuojattu. Anna salasana nähdäksesi sisällön."
+#: templates/searchform.php:4 templates/searchform.php:6
+msgid "Search"
+msgstr "Hae"
 
-#. Text in echo
-#: inc/roots-widgets.php:53
-msgid "Title (optional):"
-msgstr "Otsikko (vapaaehtoinen):"
+#. Theme Name of the plugin/theme
+msgid "Roots Starter Theme"
+msgstr "Roots-aloitusteema"
 
-#. Text in echo
-#: comments.php:88
-msgid "Website"
-msgstr "Nettisivu"
+#. Theme URI of the plugin/theme
+msgid "http://roots.io/starter-theme/"
+msgstr "http://roots.io/starter-theme/"
 
-#. Text in echo
-#: loop-single.php:10
-#: loop-search.php:17
-msgid "Written by"
-msgstr "Kirjoittaja:"
+#. Description of the plugin/theme
+msgid ""
+"Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. "
+"<a href=\"https://github.com/roots/roots/contributors\">Contribute on "
+"GitHub</a>"
+msgstr ""
+"Roots on Wordpress-aloitusteema kehittäjille sisältäen HTML5-boilerplaten ja "
+"Twitter Bootstrapin.  <a href=\"https://github.com/roots/roots/contributors"
+"\">Osallistu kehitykseen @ GitHub</a>"
 
-#. Text in function
-#: comments.php:73
-msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Sinun pitää <a href=\"%s\">kirjautua</a> kommentointia varten."
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
 
-#. Text in echo
-#: comments.php:14
-msgid "Your comment is awaiting moderation."
-msgstr "Kommenttisi on moderointijonossa."
+#. Author URI of the plugin/theme
+msgid "http://roots.io/"
+msgstr "http://roots.io/"
 
-#. Text in echo
-#: inc/roots-widgets.php:69
-msgid "Zipcode/Postal Code:"
-msgstr "Postinumero:"
-
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Custom Template"
