@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Eduardo Pereira <eduovindo@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt_PT\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+"Pedimos desculpa mas a página que estava a tentar visualizar não existe."
+
+#: 404.php:7
+msgid "It looks like this was the result of either:"
+msgstr "Aparentemente uma das seguintes situações terá acontecido:"
+
+#: 404.php:9
+msgid "a mistyped address"
+msgstr "endereço mal digitado"
+
+#: 404.php:10
+msgid "an out-of-date link"
+msgstr "seguiu um link desactualizado"
+
+#: base.php:6
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Você está a utilizar um browser <strong>desactualizado</strong>. Por favor "
+"<a href=\"http://browsehappy.com/\">actualize o seu browser</a> de forma a "
+"melhorar a sua experiência de navegação e segurança."
+
+#: functions.php:29
+msgid "Error locating %s for inclusion"
+msgstr "Erro ao localizar %s para inclusão"
+
+#: index.php:5
+msgid "Sorry, no results were found."
+msgstr "Pedimos desculpa, não foram encontrados resultados."
+
+#: index.php:17
+msgid "&larr; Older posts"
+msgstr "&larr; Mais antigos"
+
+#: index.php:18
+msgid "Newer posts &rarr;"
+msgstr "Mais recentes &rarr;"
+
+#: lib/activation.php:28 lib/activation.php:29
+msgid "Theme Activation"
+msgstr "Activação do template"
+
+#: lib/activation.php:50
+msgid "%s Theme Activation"
+msgstr "%s Activação do template"
+
+#: lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+"Estas configurações são opcionais e deverão ser utilizadas numa instalação "
+"nova"
+
+#: lib/activation.php:59 lib/activation.php:62
+msgid "Create static front page?"
+msgstr "Criar uma página estática para a home page?"
+
+#: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
+#: lib/activation.php:100
+msgid "Yes"
+msgstr "Sim"
+
+#: lib/activation.php:65 lib/activation.php:77 lib/activation.php:89
+#: lib/activation.php:101
+msgid "No"
+msgstr "No"
+
+#: lib/activation.php:67
+msgid "Create a page called Home and set it to be the static front page"
+msgstr ""
+"Cria uma página chamada Home e configura-a para ser a página estática de home"
+
+#: lib/activation.php:71
+msgid "Change permalink structure?"
+msgstr "Alterar a estrutura de ligações permanentes?"
+
+#: lib/activation.php:74
+msgid "Update permalink structure?"
+msgstr "Actualizar a estrutura de ligações permanentes?"
+
+#: lib/activation.php:79
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr "Alterar a estrutura de ligações permanentes para /&#37;postname&#37;/"
+
+#: lib/activation.php:83 lib/activation.php:86
+msgid "Create navigation menu?"
+msgstr "Criar menu de navegação?"
+
+#: lib/activation.php:91
+msgid "Create the Primary Navigation menu and set the location"
+msgstr "Criar menu de Navegação Primário e configurar a sua localização?"
+
+#: lib/activation.php:95 lib/activation.php:98
+msgid "Add pages to menu?"
+msgstr "Adicionar páginas ao menu?"
+
+#: lib/activation.php:103
+msgid "Add all current published pages to the Primary Navigation"
+msgstr "Adicionar todas as páginas publicadas ao menu Navegação Primária"
+
+#: lib/activation.php:126 lib/activation.php:147
+msgid "Home"
+msgstr "Home"
+
+#: lib/activation.php:173 lib/activation.php:176 lib/activation.php:190
+#: lib/init.php:13
+msgid "Primary Navigation"
+msgstr "Navegação Primária"
+
+#: lib/extras.php:6
+msgid "Continued"
+msgstr "Continuação"
+
+#: lib/init.php:36
+msgid "Primary"
+msgstr "Primário"
+
+#: lib/init.php:45
+msgid "Footer"
+msgstr "Rodapé"
+
+#: lib/titles.php:10
+msgid "Latest Posts"
+msgstr "Últimos Posts"
+
+#: lib/titles.php:19
+msgid "Daily Archives: %s"
+msgstr "Arquivos Diários: %s"
+
+#: lib/titles.php:21
+msgid "Monthly Archives: %s"
+msgstr "Arquivos Mensais: %s"
+
+#: lib/titles.php:23
+msgid "Yearly Archives: %s"
+msgstr "Arquivos Anuais: %s"
+
+#: lib/titles.php:26
+msgid "Author Archives: %s"
+msgstr "Arquivos de Autor: %s"
+
+#: lib/titles.php:31
+msgid "Search Results for %s"
+msgstr "Resultados de pesquisa por: %s"
+
+#: lib/titles.php:33
+msgid "Not Found"
+msgstr "Não Encontrado"
+
+#: templates/comment.php:4
+msgid "%1$s"
+msgstr "%1$s"
+
+#: templates/comment.php:5
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: templates/comment.php:9
+msgid "Your comment is awaiting moderation."
+msgstr "O seu comentário aguarda moderação."
+
+#: templates/comments.php:9
+msgid "One Response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Uma resposta para &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s respostas para &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Comentários mais antigos"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "&larr; Comentários mais recentes"
+
+#: templates/comments.php:30 templates/comments.php:35
+msgid "Comments are closed."
+msgstr "Comentários estão fechados."
+
+#: templates/comments.php:42
+msgid "Leave a Reply"
+msgstr "Deixe um comentário"
+
+#: templates/comments.php:42
+msgid "Leave a Reply to %s"
+msgstr "Deixe um comentário a %s"
+
+#: templates/comments.php:45
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Você tem de estar <a href=\"%s\">autenticado</a> para poder comentar."
+
+#: templates/comments.php:50
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Autenticado como <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: templates/comments.php:51
+msgid "Log out of this account"
+msgstr "Terminar sessão nesta conta"
+
+#: templates/comments.php:51
+msgid "Log out &raquo;"
+msgstr "Terminar sessão &raquo;"
+
+#: templates/comments.php:55
+msgid "Name"
+msgstr "Nome"
+
+#: templates/comments.php:55 templates/comments.php:59
+msgid " (required)"
+msgstr "(obrigatório)"
+
+#: templates/comments.php:59
+msgid "Email (will not be published)"
+msgstr "Email (não será publicado)"
+
+#: templates/comments.php:63
+msgid "Website"
+msgstr "Website"
+
+#: templates/comments.php:68
+msgid "Comment"
+msgstr "Comentário"
+
+#: templates/comments.php:71
+msgid "Submit Comment"
+msgstr "Submeter comentário"
+
+#: templates/content-single.php:11
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Por"
+
+#: templates/searchform.php:2
+msgid "Search for:"
+msgstr "Pesquisar por:"
+
+#: templates/searchform.php:4 templates/searchform.php:6
+msgid "Search"
+msgstr "Pesquisar"
+
+#. Theme Name of the plugin/theme
+msgid "Roots Starter Theme"
+msgstr "Roots Starter Theme"
+
+#. Theme URI of the plugin/theme
+msgid "http://roots.io/starter-theme/"
+msgstr "http://roots.io/starter-theme/"
+
+#. Description of the plugin/theme
+msgid ""
+"Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. "
+"<a href=\"https://github.com/roots/roots/contributors\">Contribute on "
+"GitHub</a>"
+msgstr ""
+"Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. "
+"<a href=\"https://github.com/roots/roots/contributors\">Contribute on "
+"GitHub</a>"
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
+
+#. Author URI of the plugin/theme
+msgid "http://roots.io/"
+msgstr "http://roots.io/"
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Template Customizado"
