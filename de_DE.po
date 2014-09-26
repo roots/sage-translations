@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: roots\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Philipp Meier <phimei@gmx.ch>\n"
+"Last-Translator: Nikolas Grottendieck <github@nikolasgrottendieck.com>\n"
 "Language-Team: roots\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
 msgstr ""
-"Es tut uns leid aber die Seite die du angucken wolltest existiert nicht."
+"Es tut uns leid aber die Seite, die du angucken wolltest, existiert nicht."
 
 #: 404.php:7
 msgid "It looks like this was the result of either:"
@@ -29,14 +29,18 @@ msgstr "einer fehlerhaft eingegebenen Adresse"
 msgid "an out-of-date link"
 msgstr "einem veralteten Link"
 
-#: base.php:4
+#: base.php:6
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
 "Du benutzt einen <strong>veralteten</strong> Browser. Bitte <a href=\"http://"
-"browsehappy.com/\">aktualisiere deinen Browser</a> um deine Erfahrung zu "
+"browsehappy.com/\">aktualisiere deinen Browser</a>, um deine Erfahrung zu "
 "verbessern."
+
+#: functions.php:29
+msgid "Error locating %s for inclusion"
+msgstr "Es trat ein Fehler beim Lokalisieren von %s für die Einbindung auf"
 
 #: index.php:5
 msgid "Sorry, no results were found."
@@ -54,78 +58,86 @@ msgstr "Neuere Artikel &rarr;"
 msgid "Theme Activation"
 msgstr "Theme Aktivierung"
 
-#: lib/activation.php:51
+#: lib/activation.php:50
 msgid "%s Theme Activation"
 msgstr "%s Theme Aktivierung"
 
-#: lib/activation.php:62 lib/activation.php:64
+#: lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+"Diese Einstellungen sind optional und sollten normalerweise nur bei einer "
+"frischen Installation benutzt werden"
+
+#: lib/activation.php:59 lib/activation.php:62
 msgid "Create static front page?"
 msgstr "Statische Startseite anlegen?"
 
-#: lib/activation.php:66 lib/activation.php:79 lib/activation.php:92
-#: lib/activation.php:105 lib/activation.php:118
+#: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
+#: lib/activation.php:100
 msgid "Yes"
 msgstr "Ja"
 
-#: lib/activation.php:67 lib/activation.php:80 lib/activation.php:93
-#: lib/activation.php:106 lib/activation.php:119
+#: lib/activation.php:65 lib/activation.php:77 lib/activation.php:89
+#: lib/activation.php:101
 msgid "No"
 msgstr "Nein"
 
-#: lib/activation.php:70
+#: lib/activation.php:67
 msgid "Create a page called Home and set it to be the static front page"
 msgstr ""
 "Erstelle eine Home genannte Seite und mache sie zur statischen Startseite"
 
-#: lib/activation.php:75
+#: lib/activation.php:71
 msgid "Change permalink structure?"
 msgstr "Permalinkstruktur ändern?"
 
-#: lib/activation.php:77
+#: lib/activation.php:74
 msgid "Update permalink structure?"
 msgstr "Permalinkstruktur aktualisieren?"
 
-#: lib/activation.php:83
+#: lib/activation.php:79
 msgid "Change permalink structure to /&#37;postname&#37;/"
 msgstr "Ändere die Permalinkstruktur zu /&#37;postname&#37;/"
 
-#: lib/activation.php:88
-msgid "Change uploads folder?"
-msgstr "Ordner für hochgeladene Dateien ändern?"
-
-#: lib/activation.php:90
-msgid "Update uploads folder?"
-msgstr "Ordner für hochgeladene Dateien aktualisieren?"
-
-#: lib/activation.php:96
-msgid "Change uploads folder to /media/ instead of /wp-content/uploads/"
-msgstr ""
-"Ändere Ordner für hochgeladene Dateien von /wp-content/uploads/ zu /media/"
-
-#: lib/activation.php:101 lib/activation.php:103
+#: lib/activation.php:83 lib/activation.php:86
 msgid "Create navigation menu?"
 msgstr "Navigationsmenü anlegen?"
 
-#: lib/activation.php:109
+#: lib/activation.php:91
 msgid "Create the Primary Navigation menu and set the location"
-msgstr "Lege das primäre Navigationsmenü an und lege den Ort fest"
+msgstr "Erstelle das primäre Navigationsmenü und lege den Ort fest"
 
-#: lib/activation.php:114 lib/activation.php:116
+#: lib/activation.php:95 lib/activation.php:98
 msgid "Add pages to menu?"
 msgstr "Seiten zum Menü hinzufügen?"
 
-#: lib/activation.php:122
+#: lib/activation.php:103
 msgid "Add all current published pages to the Primary Navigation"
 msgstr ""
 "Füge alle derzeit veröffentlichten Seiten zur primären Navigation hinzu"
 
-#: lib/cleanup.php:210
+#: lib/activation.php:126 lib/activation.php:147
+msgid "Home"
+msgstr "Startseite"
+
+#: lib/activation.php:173 lib/activation.php:176 lib/activation.php:190
+#: lib/init.php:13
+msgid "Primary Navigation"
+msgstr "Primäre Navigation"
+
+#: lib/extras.php:6
 msgid "Continued"
 msgstr "Weiterlesen"
 
-#: lib/init.php:11
-msgid "Primary Navigation"
-msgstr "Primäre Navigation"
+#: lib/init.php:36
+msgid "Primary"
+msgstr "Primär"
+
+#: lib/init.php:45
+msgid "Footer"
+msgstr "Fußzeile"
 
 #: lib/titles.php:10
 msgid "Latest Posts"
@@ -155,26 +167,6 @@ msgstr "Suchergebnisse für %s"
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
-#: lib/widgets.php:8
-msgid "Primary"
-msgstr "Primär"
-
-#: lib/widgets.php:17
-msgid "Footer"
-msgstr "Fußzeile"
-
-#: lib/widgets.php:45
-msgid "Use this widget to add a vCard"
-msgstr "Benutze dieses Widget um eine vCard hinzuzufügen"
-
-#: lib/widgets.php:47
-msgid "Roots: vCard"
-msgstr "Roots: vCard"
-
-#: lib/widgets.php:74
-msgid "vCard"
-msgstr "vCard"
-
 #: templates/comment.php:4
 msgid "%1$s"
 msgstr "%1$s"
@@ -187,70 +179,70 @@ msgstr "(Bearbeiten)"
 msgid "Your comment is awaiting moderation."
 msgstr "Dein Kommentar wartet auf Moderation."
 
-#: templates/comments.php:8
+#: templates/comments.php:9
 msgid "One Response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
 msgstr[0] "Eine Reaktion auf &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s Reaktionen auf &ldquo;%2$s&rdquo;"
 
-#: templates/comments.php:18
+#: templates/comments.php:19
 msgid "&larr; Older comments"
 msgstr "&larr; Ältere Kommentare"
 
-#: templates/comments.php:21
+#: templates/comments.php:22
 msgid "Newer comments &rarr;"
 msgstr "Neuere Kommentare &rarr;"
 
-#: templates/comments.php:29 templates/comments.php:38
+#: templates/comments.php:30 templates/comments.php:35
 msgid "Comments are closed."
 msgstr "Kommentare sind geschlossen."
 
-#: templates/comments.php:45
+#: templates/comments.php:42
 msgid "Leave a Reply"
 msgstr "Hinterlasse eine Antwort"
 
-#: templates/comments.php:45
+#: templates/comments.php:42
 msgid "Leave a Reply to %s"
 msgstr "Hinterlasse eine Antwort auf %s"
 
-#: templates/comments.php:48
+#: templates/comments.php:45
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 "Du musst <a href=\"%s\">angemeldet</a> sein, um einen Kommentar zu erstellen."
 
-#: templates/comments.php:53
+#: templates/comments.php:50
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
 msgstr "Angemeldet als <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
-#: templates/comments.php:54
+#: templates/comments.php:51
 msgid "Log out of this account"
-msgstr "Melde dich von diesem Benutzerkonto ab."
+msgstr "Melde dich von diesem Benutzerkonto ab"
 
-#: templates/comments.php:54
+#: templates/comments.php:51
 msgid "Log out &raquo;"
 msgstr "Abmelden  &raquo;"
 
-#: templates/comments.php:57
+#: templates/comments.php:55
 msgid "Name"
 msgstr "Name"
 
-#: templates/comments.php:57 templates/comments.php:59
+#: templates/comments.php:55 templates/comments.php:59
 msgid " (required)"
-msgstr "(benötigt)"
+msgstr " (benötigt)"
 
 #: templates/comments.php:59
 msgid "Email (will not be published)"
 msgstr "E-Mail (wird nicht veröffentlicht)"
 
-#: templates/comments.php:61
+#: templates/comments.php:63
 msgid "Website"
 msgstr "Webseite"
 
-#: templates/comments.php:64
+#: templates/comments.php:68
 msgid "Comment"
 msgstr "Kommentar"
 
-#: templates/comments.php:66
+#: templates/comments.php:71
 msgid "Submit Comment"
 msgstr "Kommentar abschicken"
 
@@ -266,6 +258,36 @@ msgstr "Von"
 msgid "Search for:"
 msgstr "Suche nach:"
 
-#: templates/searchform.php:3 templates/searchform.php:4
+#: templates/searchform.php:4 templates/searchform.php:6
 msgid "Search"
 msgstr "Suche"
+
+#. Theme Name of the plugin/theme
+msgid "Roots Starter Theme"
+msgstr "Roots Starter Theme"
+
+#. Theme URI of the plugin/theme
+msgid "http://roots.io/starter-theme/"
+msgstr "http://roots.io/starter-theme/"
+
+#. Description of the plugin/theme
+msgid ""
+"Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. "
+"<a href=\"https://github.com/roots/roots/contributors\">Contribute on "
+"GitHub</a>"
+msgstr ""
+"Roots ist ein WordPress Starter Theme basierend auf HTML5 Boilerplate & "
+"Bootstrap. <a href=\"https://github.com/roots/roots/contributors\">Mach mit "
+"auf GitHub</a>"
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
+
+#. Author URI of the plugin/theme
+msgid "http://roots.io/"
+msgstr "http://roots.io/"
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Eigene Vorlage"
