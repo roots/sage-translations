@@ -1,283 +1,231 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
+"Project-Id-Version: Roots 7.0.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Kazik <netboy@netboy.pl>\n"
+"Last-Translator: Robert Korulczyk <robert@korulczyk.pl>\n"
 "Language-Team: \n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
-"X-Generator: Poedit 1.5.5\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
-#: 404.php:5
-msgid ""
-"The page you are looking for might have been removed, had its name changed, "
-"or is temporarily unavailable."
-msgstr ""
-"Strona której szukasz nie istnieje, została przeniesiona lub jest tymczasowo "
-"niedostępna."
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Strona, którą próbujesz wyświetlić nie istnieje."
 
-#: 404.php:8
-msgid "Please try the following:"
-msgstr "Spróbuj następujących czynności:"
+#: 404.php:7
+msgid "It looks like this was the result of either:"
+msgstr "Może to być spowodowane:"
+
+#: 404.php:9
+msgid "a mistyped address"
+msgstr "nieprawidłowym adresem"
 
 #: 404.php:10
-msgid "Check your spelling"
-msgstr "Sprawdź poprawność pisowni"
+msgid "an out-of-date link"
+msgstr "nieaktualnym linkiem"
 
-#: 404.php:11
-msgid "Return to the <a href=\"%s\">home page</a>"
-msgstr "Powrót do <a href=\"%s\">strony głównej</a>"
+#: base.php:6
+msgid "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr "Używasz <strong>nieaktualnej</strong> przeglądarki. <a href=\"http://browsehappy.com/\">Zaktualizuj ją</a> aby poprawić komfort korzystania z naszej witryny."
 
-#: 404.php:12
-msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
-msgstr "Kliknij <a href=\"javascript:history.back()\">Powrót</a>"
+#: functions.php:28
+msgid "Error locating %s for inclusion"
+msgstr "Błąd przy próbie załadowania pliku %s"
 
-#: lib/activation.php:31 lib/activation.php:32
+#: index.php:5
+msgid "Sorry, no results were found."
+msgstr "Nie znaleziono żadnych wyników."
+
+#: index.php:17
+msgid "&larr; Older posts"
+msgstr "&larr; Starsze posty"
+
+#: index.php:18
+msgid "Newer posts &rarr;"
+msgstr "Nowsze posty &rarr;"
+
+#: lib/activation.php:28
+#: lib/activation.php:29
 msgid "Theme Activation"
-msgstr "Aktywacja szablonu"
+msgstr "Aktywacja tematu"
 
-#: lib/activation.php:68
+#: lib/activation.php:50
 msgid "%s Theme Activation"
-msgstr "%s Aktywacja szablonu"
+msgstr "Aktywacja Tematu %s"
 
-#: lib/activation.php:83 lib/activation.php:85
+#: lib/activation.php:52
+msgid "These settings are optional and should usually be used only on a fresh installation"
+msgstr "Te ustawienia są opcjonalne i zwykle powinny być użyte tylko dla świeżej instalacji"
+
+#: lib/activation.php:59
+#: lib/activation.php:62
 msgid "Create static front page?"
-msgstr "Czy stworzyć statyczną stronę główną?"
+msgstr "Utworzyć statyczną stronę główną?"
 
-#: lib/activation.php:87 lib/activation.php:100 lib/activation.php:113
-#: lib/activation.php:126 lib/activation.php:139
+#: lib/activation.php:64
+#: lib/activation.php:76
+#: lib/activation.php:88
+#: lib/activation.php:100
 msgid "Yes"
 msgstr "Tak"
 
-#: lib/activation.php:88 lib/activation.php:101 lib/activation.php:114
-#: lib/activation.php:127 lib/activation.php:140
+#: lib/activation.php:65
+#: lib/activation.php:77
+#: lib/activation.php:89
+#: lib/activation.php:101
 msgid "No"
 msgstr "Nie"
 
-#: lib/activation.php:91
+#: lib/activation.php:67
 msgid "Create a page called Home and set it to be the static front page"
-msgstr "Stwórz stronę o nazwie Home i ustaw ją jako statyczną stronę główną"
+msgstr "Utwórz podstronę Strona Główna i ustaw ją jako stronę startową"
 
-#: lib/activation.php:96
+#: lib/activation.php:71
 msgid "Change permalink structure?"
-msgstr "Czy zmienić strukturę permalinków?"
+msgstr "Zmienić strukturę bezpośrednich odnośników?"
 
-#: lib/activation.php:98
+#: lib/activation.php:74
 msgid "Update permalink structure?"
-msgstr "Czy zaktualizować strukturę permalinków?"
+msgstr "Zaktaulizować strukturę bezpośrednich odnośników?"
 
-#: lib/activation.php:104
+#: lib/activation.php:79
 msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Zmień strukturę permalinków: /&#37;postname&#37;/"
+msgstr "Zmień strukturę bezpośrednich odnośników na /&#37;postname&#37;/"
 
-#: lib/activation.php:109
-msgid "Change uploads folder?"
-msgstr "Czy zmienić folder z plikami?"
-
-#: lib/activation.php:111
-msgid "Update uploads folder?"
-msgstr "Czy dostosować folder z plikami?"
-
-#: lib/activation.php:117
-msgid "Change uploads folder to /assets/ instead of /wp-content/uploads/"
-msgstr "Zmień nazwę folderu z plikami na /assets/ zamiast /wp-content/uploads/"
-
-#: lib/activation.php:122 lib/activation.php:124
+#: lib/activation.php:83
+#: lib/activation.php:86
 msgid "Create navigation menu?"
-msgstr "Czy stworzyć menu?"
+msgstr "Utworzyć nawigacyjne menu?"
 
-#: lib/activation.php:130
+#: lib/activation.php:91
 msgid "Create the Primary Navigation menu and set the location"
-msgstr "Stwórz główne menu i ustaw jego pozycję"
+msgstr "Utwórz Główne  menu i ustaw jego położenie"
 
-#: lib/activation.php:135 lib/activation.php:137
+#: lib/activation.php:95
+#: lib/activation.php:98
 msgid "Add pages to menu?"
-msgstr "Czy dodać strony do menu?"
+msgstr "Dodać strony do menu?"
 
-#: lib/activation.php:143
+#: lib/activation.php:103
 msgid "Add all current published pages to the Primary Navigation"
-msgstr "Dodaj wszystkie aktualnie opublikowane strony do głównego menu"
+msgstr "Dodaj wszystkie aktualnie opublikowane strony do Głównego menu"
 
-#: lib/cleanup.php:388
-msgid "Continued"
-msgstr "Kontynuuj"
+#: lib/activation.php:126
+#: lib/activation.php:147
+msgid "Home"
+msgstr "Strona Główna"
 
-#: lib/htaccess.php:25
-msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
-msgstr ""
-"Proszę upewnij się, że plik <a href=\"%s\">.htaccess</a> jest dostępny do "
-"zapisu "
-
+#: lib/activation.php:173
+#: lib/activation.php:176
+#: lib/activation.php:190
 #: lib/init.php:13
 msgid "Primary Navigation"
-msgstr "Główna nawigacja"
+msgstr "Główne menu"
 
-#: lib/utils.php:14
-msgid "Latest Posts"
-msgstr "Ostatnie posty"
+#: lib/extras.php:6
+msgid "Continued"
+msgstr "Kontunuuj"
 
-#: lib/utils.php:23
-msgid "Daily Archives: %s"
-msgstr "Dzienne archiwa: %s"
+#: lib/init.php:40
+msgid "Primary"
+msgstr "Główny"
 
-#: lib/utils.php:25
-msgid "Monthly Archives: %s"
-msgstr "Miesięczne archiwa: %s"
-
-#: lib/utils.php:27
-msgid "Yearly Archives: %s"
-msgstr "Roczne archiwa: %s"
-
-#: lib/utils.php:31
-msgid "Author Archives: %s"
-msgstr "Archiwa autora: %s"
-
-#: lib/utils.php:36
-msgid "Search Results for %s"
-msgstr "Wyniki wyszukiwania: %s"
-
-#: lib/utils.php:38
-msgid "File Not Found"
-msgstr "Nie znaleziono pliku"
-
-#: lib/widgets.php:6
-msgid "Primary Sidebar"
-msgstr "Główny sidebar"
-
-#: lib/widgets.php:15
+#: lib/init.php:49
 msgid "Footer"
 msgstr "Stopka"
 
-#: lib/widgets.php:41
-msgid "Use this widget to add a vCard"
-msgstr "Użyj tego widgetu do dodania karty (vCard)"
+#: lib/titles.php:10
+msgid "Latest Posts"
+msgstr "Ostatnie Posty"
 
-#: lib/widgets.php:43
-msgid "Roots: vCard"
-msgstr "Roots: vCard"
+#: lib/titles.php:19
+msgid "Daily Archives: %s"
+msgstr "Archiwum postów z dnia:  %s"
 
-#: lib/widgets.php:70
-msgid "vCard"
-msgstr "vCard"
+#: lib/titles.php:21
+msgid "Monthly Archives: %s"
+msgstr "Archiwum postów z miesiąca:  %s"
 
-#: templates/comments.php:7
-msgid "<cite class=\"fn\">%s</cite>"
-msgstr "<cite class=\"fn\">%s</cite>"
+#: lib/titles.php:23
+msgid "Yearly Archives: %s"
+msgstr "Archiwum postów z roku:  %s"
 
-#: templates/comments.php:8
-msgid "%1$s"
-msgstr "%1$s"
+#: lib/titles.php:26
+msgid "Author Archives: %s"
+msgstr "Archiwum postów autora:  %s"
+
+#: lib/titles.php:31
+msgid "Search Results for %s"
+msgstr "Wyniki wyszukiwania dla frazy %s"
+
+#: lib/titles.php:33
+msgid "Not Found"
+msgstr "Nie znaleziono"
 
 #: templates/comments.php:9
-msgid "(Edit)"
-msgstr "(Edytuj)"
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedna odpowiedź do &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s odpowiedzi do &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s odpowiedzi do &ldquo;%2$s&rdquo;"
 
-#: templates/comments.php:15
-msgid "Your comment is awaiting moderation."
-msgstr "Twój komentarz oczekuje na moderację."
-
-#: templates/comments.php:32
-msgid "This post is password protected. Enter the password to view comments."
-msgstr ""
-"Ten artykuł jest chroniony hasłem. Podaj hasło aby zobaczyć komentarze."
-
-#: templates/comments.php:39
-msgid "One Response to &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
-msgstr[0] "Jedna odpowiedź na &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s Odpowiedzi na &ldquo;%2$s&rdquo;"
-
-#: templates/comments.php:49 templates/comments.php:51
+#: templates/comments.php:19
 msgid "&larr; Older comments"
 msgstr "&larr; Starsze komentarze"
 
-#: templates/comments.php:54 templates/comments.php:56
+#: templates/comments.php:22
 msgid "Newer comments &rarr;"
 msgstr "Nowsze komentarze &rarr;"
 
-#: templates/comments.php:66 templates/comments.php:76
+#: templates/comments.php:31
 msgid "Comments are closed."
-msgstr "Komentarze są zamknięte."
-
-#: templates/comments.php:83
-msgid "Leave a Reply"
-msgstr "Pozostaw odpowiedź"
-
-#: templates/comments.php:83
-msgid "Leave a Reply to %s"
-msgstr "Pozostaw odpowiedź na %s"
-
-#: templates/comments.php:86
-msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Musisz być <a href=\"%s\">zalogowany</a> aby wysłać komentarz."
-
-#: templates/comments.php:90
-msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "Zalogowany jako: <a href=\"%s/wp-admin/profile.php\">%s</a>."
-
-#: templates/comments.php:90
-msgid "Log out of this account"
-msgstr "Wyloguj się z tego konta"
-
-#: templates/comments.php:90
-msgid "Log out &raquo;"
-msgstr "Wyloguj się &raquo;"
-
-#: templates/comments.php:92
-msgid "Name"
-msgstr "Imię"
-
-#: templates/comments.php:92 templates/comments.php:94
-msgid " (required)"
-msgstr " (wymagane)"
-
-#: templates/comments.php:94
-msgid "Email (will not be published)"
-msgstr "E-mail (nie zostanie opublikowany)"
-
-#: templates/comments.php:96
-msgid "Website"
-msgstr "Strona WWW"
-
-#: templates/comments.php:99
-msgid "Comment"
-msgstr "Komentarz"
-
-#: templates/comments.php:101
-msgid "Submit Comment"
-msgstr "Dodaj komentarz"
+msgstr "Komentowanie jest zamknięte."
 
 #: templates/content-single.php:11
 msgid "Pages:"
 msgstr "Strony:"
 
-#: templates/content.php:4
-msgid "Sorry, no results were found."
-msgstr "Przepraszamy, brak rezultatów wyszukiwania."
-
-#: templates/content.php:28 templates/content.php:30
-msgid "&larr; Older posts"
-msgstr "&larr; Starsze posty"
-
-#: templates/content.php:33 templates/content.php:35
-msgid "Newer posts &rarr;"
-msgstr "Nowsze posty &rarr;"
-
-#: templates/entry-meta.php:1
-msgid "Posted on %s at %s."
-msgstr "Wysłane %s o %s."
-
 #: templates/entry-meta.php:2
-msgid "Written by"
-msgstr "Napisane przez"
+msgid "By"
+msgstr "Przez"
 
 #: templates/searchform.php:2
 msgid "Search for:"
-msgstr "Szukaj:"
+msgstr "Szukaj dla:"
 
-#: templates/searchform.php:3 templates/searchform.php:4
+#: templates/searchform.php:4
+#: templates/searchform.php:6
 msgid "Search"
 msgstr "Szukaj"
+
+#. Theme Name of the plugin/theme
+msgid "Roots Starter Theme"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://roots.io/starter-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. <a href=\"https://github.com/roots/roots/contributors\">Contribute on GitHub</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://roots.io/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr ""
+
