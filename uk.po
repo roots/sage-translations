@@ -170,9 +170,9 @@ msgstr "Нічого не знайдено"
 msgctxt "comments title"
 msgid "One response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%1$s відповідь на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s відповіді на &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s відповідей на &ldquo;%2$s&rdquo;"
 
 #: templates/comments.php:19
 msgid "&larr; Older comments"
