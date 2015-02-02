@@ -18,7 +18,7 @@ msgstr "Sorry, de pagina die je probeert te bezoeken bestaat niet."
 
 #: 404.php:7
 msgid "It looks like this was the result of either:"
-msgstr "Het lijkt dat er een resultaat is of anders:"
+msgstr "Dit kan een gevolg zijn van:"
 
 #: 404.php:9
 msgid "a mistyped address"
