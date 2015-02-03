@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Edis Golubich\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bs_BA@latin\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Žao nam je, ali stranica koju su pokušavali da vidite ne postoji."
+
+#: 404.php:7
+msgid "It looks like this was the result of either:"
+msgstr "Izgleda da je ovo rezultat:"
+
+#: 404.php:9
+msgid "a mistyped address"
+msgstr "pogrešno unesena adresa"
+
+#: 404.php:10
+msgid "an out-of-date link"
+msgstr "zastarjeli link"
+
+#: base.php:6
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Koristite <strong>zastario</strong> pretraživač. Molimo <a href=\"http://"
+"browsehappy.com/\">instalirajte noviju verziju pretraživača</a>."
+
+#: functions.php:28
+msgid "Error locating %s for inclusion"
+msgstr "Greška u lociranju %s za inkluziju"
+
+#: index.php:5
+msgid "Sorry, no results were found."
+msgstr "Rezultati nisu pronađeni."
+
+#: index.php:17
+msgid "&larr; Older posts"
+msgstr "&larr; Stari članci"
+
+#: index.php:18
+msgid "Newer posts &rarr;"
+msgstr "Novi članci  &rarr;"
+
+#: lib/activation.php:28 lib/activation.php:29
+msgid "Theme Activation"
+msgstr "Aktivacije Teme"
+
+#: lib/activation.php:50
+msgid "%s Theme Activation"
+msgstr "Aktivacija Teme %s "
+
+#: lib/activation.php:52
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation"
+msgstr ""
+"Ova podešavanja su opcionalna i trebala bi biti korištena samo na novoj "
+"instalaciji."
+
+#: lib/activation.php:59 lib/activation.php:62
+msgid "Create static front page?"
+msgstr "Napravite statičnu početnu stranicu?"
+
+#: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
+#: lib/activation.php:100
+msgid "Yes"
+msgstr "Da"
+
+#: lib/activation.php:65 lib/activation.php:77 lib/activation.php:89
+#: lib/activation.php:101
+msgid "No"
+msgstr "Ne"
+
+#: lib/activation.php:67
+msgid "Create a page called Home and set it to be the static front page"
+msgstr ""
+"Napravite stranicu sa naslovom Početna i podesite bude statična početna "
+"stranica"
+
+#: lib/activation.php:71
+msgid "Change permalink structure?"
+msgstr "Promjeni permalink strukturu?"
+
+#: lib/activation.php:74
+msgid "Update permalink structure?"
+msgstr "Update strukturu stalnih linkova?"
+
+#: lib/activation.php:79
+msgid "Change permalink structure to /&#37;postname&#37;/"
+msgstr "Promjeni strukturu stalnih linkova u /&#37;postname&#37;/"
+
+#: lib/activation.php:83 lib/activation.php:86
+msgid "Create navigation menu?"
+msgstr "Napravi navigacijski meni?"
+
+#: lib/activation.php:91
+msgid "Create the Primary Navigation menu and set the location"
+msgstr "Napravi primarni navigacijski meni i podesi lokaciju"
+
+#: lib/activation.php:95 lib/activation.php:98
+msgid "Add pages to menu?"
+msgstr "Dodaj stranice u meni?"
+
+#: lib/activation.php:103
+msgid "Add all current published pages to the Primary Navigation"
+msgstr "Dodaj sve dosada objaveljene stranice u primarnu navigaciju"
+
+#: lib/activation.php:126 lib/activation.php:147
+msgid "Home"
+msgstr "Početna"
+
+#: lib/activation.php:173 lib/activation.php:176 lib/activation.php:190
+#: lib/init.php:13
+msgid "Primary Navigation"
+msgstr "Primarna Navigacija"
+
+#: lib/extras.php:6
+msgid "Continued"
+msgstr "Nastavljeno"
+
+#: lib/init.php:40
+msgid "Primary"
+msgstr "Primarno"
+
+#: lib/init.php:49
+msgid "Footer"
+msgstr ""
+
+#: lib/titles.php:10
+msgid "Latest Posts"
+msgstr "Najnoviji članci"
+
+#: lib/titles.php:19
+msgid "Daily Archives: %s"
+msgstr "Dnevne arhive: %s"
+
+#: lib/titles.php:21
+msgid "Monthly Archives: %s"
+msgstr "Mjesečne arhive: %s"
+
+#: lib/titles.php:23
+msgid "Yearly Archives: %s"
+msgstr "Godišnje arhive: %s"
+
+#: lib/titles.php:26
+msgid "Author Archives: %s"
+msgstr "Autorske arhive: %s"
+
+#: lib/titles.php:31
+msgid "Search Results for %s"
+msgstr "Rezultati pretrage za %s"
+
+#: lib/titles.php:33
+msgid "Not Found"
+msgstr "Nije pronađeno"
+
+#: templates/comments.php:9
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Jedan odgovor u &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s odgovora u &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s odgovora u &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Stari komentari"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Novi komentari &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Komentari su onemogućeni."
+
+#: templates/content-single.php:11
+msgid "Pages:"
+msgstr "Stranice:"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "autor"
+
+#: templates/searchform.php:2
+msgid "Search for:"
+msgstr "Pretraga za:"
+
+#: templates/searchform.php:4 templates/searchform.php:6
+msgid "Search"
+msgstr "Pretraga"
+
+#. Theme Name of the plugin/theme
+msgid "Roots Starter Theme"
+msgstr "Roots Početna Tema"
+
+#. Theme URI of the plugin/theme
+msgid "http://roots.io/starter-theme/"
+msgstr "http://roots.io/starter-theme/"
+
+#. Description of the plugin/theme
+msgid ""
+"Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. "
+"<a href=\"https://github.com/roots/roots/contributors\">Contribute on "
+"GitHub</a>"
+msgstr ""
+"Roots je WordPress početna tema bazirana na HTML5 Boilerplate-u & Bootstrap-"
+"u. <a href=\"https://github.com/roots/roots/contributors\">Contribute on "
+"GitHub</a> Prevod radio <a href=\"https://github.com/edgolub\">Edis "
+"Golubich</a>"
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
+
+#. Author URI of the plugin/theme
+msgid "http://roots.io/"
+msgstr "http://roots.io/"
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Prilagođeni predložak"
