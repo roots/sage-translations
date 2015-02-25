@@ -18,11 +18,11 @@ msgstr "Sorry, de pagina die je probeert te bezoeken bestaat niet."
 
 #: 404.php:7
 msgid "It looks like this was the result of either:"
-msgstr "Het lijkt dat er een resultaat is of anders:"
+msgstr "Dit kan een gevolg zijn van:"
 
 #: 404.php:9
 msgid "a mistyped address"
-msgstr "een verkeerd adres"
+msgstr "een onjuist adres"
 
 #: 404.php:10
 msgid "an out-of-date link"
@@ -226,7 +226,7 @@ msgstr "Naam"
 
 #: templates/comments.php:57 templates/comments.php:59
 msgid " (required)"
-msgstr " (noodzakelijk)"
+msgstr " (vereist)"
 
 #: templates/comments.php:59
 msgid "Email (will not be published)"
