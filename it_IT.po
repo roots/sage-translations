@@ -26,7 +26,7 @@ msgstr "l'indirizzo web non è stato digitato correttamente"
 
 #: 404.php:10
 msgid "an out-of-date link"
-msgstr "un link scaduto"
+msgstr "un link non pi&ugrave; funzionante"
 
 #: base.php:6
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 
 #: lib/activation.php:59 lib/activation.php:62
 msgid "Create static front page?"
-msgstr "Desideri creare una front page statica?"
+msgstr "Creare una front page statica?"
 
 #: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
 #: lib/activation.php:100
@@ -89,11 +89,11 @@ msgstr "Crea una pagina chiamata Home e impostala come front page statica"
 
 #: lib/activation.php:71
 msgid "Change permalink structure?"
-msgstr "Desideri modificare la struttura dei permalink?"
+msgstr "Modificare la struttura dei permalink?"
 
 #: lib/activation.php:74
 msgid "Update permalink structure?"
-msgstr "Desideri aggiornare la struttura dei permalink?"
+msgstr "Aggiornare la struttura dei permalink?"
 
 #: lib/activation.php:79
 msgid "Change permalink structure to /&#37;postname&#37;/"
@@ -101,7 +101,7 @@ msgstr "Modifica la struttura dei permalink in /&#37;postname&#37;/"
 
 #: lib/activation.php:83 lib/activation.php:86
 msgid "Create navigation menu?"
-msgstr "Desideri creare un men&ugrave; di navigazione?"
+msgstr "Creare un men&ugrave; di navigazione?"
 
 #: lib/activation.php:91
 msgid "Create the Primary Navigation menu and set the location"
@@ -109,7 +109,7 @@ msgstr "Crea il Primary Navigation menu e imposta la sua posizione"
 
 #: lib/activation.php:95 lib/activation.php:98
 msgid "Add pages to menu?"
-msgstr "Desideri aggiungere pagine al menu?"
+msgstr "Aggiungere pagine al menu?"
 
 #: lib/activation.php:103
 msgid "Add all current published pages to the Primary Navigation"
@@ -134,7 +134,7 @@ msgstr "PrimarY"
 
 #: lib/init.php:45
 msgid "Footer"
-msgstr "Piede"
+msgstr "Footer"
 
 #: lib/titles.php:10
 msgid "Latest Posts"
@@ -204,7 +204,7 @@ msgstr "Lascia un commento a %s"
 
 #: templates/comments.php:45
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Devi <a href=\"%s\">loggarti</a>per pubblicare un commento."
+msgstr "Devi <a href=\"%s\">loggarti</a> per pubblicare un commento."
 
 #: templates/comments.php:50
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
@@ -212,7 +212,7 @@ msgstr "Sei loggato come <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
 #: templates/comments.php:51
 msgid "Log out of this account"
-msgstr "Sloggati da questo account"
+msgstr "Esci da questo account"
 
 #: templates/comments.php:51
 msgid "Log out &raquo;"
@@ -286,4 +286,4 @@ msgstr "http://roots.io/"
 
 #. Template Name of the plugin/theme
 msgid "Custom Template"
-msgstr "Modello personalizzato"
+msgstr "Template personalizzato"
