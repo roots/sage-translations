@@ -17,19 +17,7 @@ msgid "Sorry, but the page you were trying to view does not exist."
 msgstr ""
 "Es tut uns leid aber die Seite, die du angucken wolltest, existiert nicht."
 
-#: 404.php:7
-msgid "It looks like this was the result of either:"
-msgstr "Es sieht aus als sei dies das Ergebnis von entweder:"
-
-#: 404.php:9
-msgid "a mistyped address"
-msgstr "einer fehlerhaft eingegebenen Adresse"
-
-#: 404.php:10
-msgid "an out-of-date link"
-msgstr "einem veralteten Link"
-
-#: base.php:6
+#: base.php:14
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
@@ -38,132 +26,39 @@ msgstr ""
 "browsehappy.com/\">aktualisiere deinen Browser</a>, um dein Erlebnis zu "
 "verbessern."
 
-#: functions.php:28
+#: functions.php:27
 msgid "Error locating %s for inclusion"
-msgstr "Es trat ein Fehler beim Lokalisieren von %s für die Einbindung auf"
+msgstr "Es trat ein Fehler beim Auffinden von %s für die Einbindung auf"
 
 #: index.php:5
 msgid "Sorry, no results were found."
 msgstr "Es tut uns leid aber es wurden keine Ergebnisse gefunden."
 
-#: index.php:17
-msgid "&larr; Older posts"
-msgstr "&larr; Ältere Artikel"
-
-#: index.php:18
-msgid "Newer posts &rarr;"
-msgstr "Neuere Artikel &rarr;"
-
-#: lib/activation.php:28 lib/activation.php:29
-msgid "Theme Activation"
-msgstr "Theme Aktivierung"
-
-#: lib/activation.php:50
-msgid "%s Theme Activation"
-msgstr "%s Theme Aktivierung"
-
-#: lib/activation.php:52
-msgid ""
-"These settings are optional and should usually be used only on a fresh "
-"installation"
-msgstr ""
-"Diese Einstellungen sind optional und sollten normalerweise nur bei einer "
-"frischen Installation benutzt werden"
-
-#: lib/activation.php:59 lib/activation.php:62
-msgid "Create static front page?"
-msgstr "Statische Startseite anlegen?"
-
-#: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
-#: lib/activation.php:100
-msgid "Yes"
-msgstr "Ja"
-
-#: lib/activation.php:65 lib/activation.php:77 lib/activation.php:89
-#: lib/activation.php:101
-msgid "No"
-msgstr "Nein"
-
-#: lib/activation.php:67
-msgid "Create a page called Home and set it to be the static front page"
-msgstr ""
-"Erstelle eine Home genannte Seite und mache sie zur statischen Startseite"
-
-#: lib/activation.php:71
-msgid "Change permalink structure?"
-msgstr "Permalinkstruktur ändern?"
-
-#: lib/activation.php:74
-msgid "Update permalink structure?"
-msgstr "Permalinkstruktur aktualisieren?"
-
-#: lib/activation.php:79
-msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Ändere die Permalinkstruktur zu /&#37;postname&#37;/"
-
-#: lib/activation.php:83 lib/activation.php:86
-msgid "Create navigation menu?"
-msgstr "Navigationsmenü anlegen?"
-
-#: lib/activation.php:91
-msgid "Create the Primary Navigation menu and set the location"
-msgstr "Erstelle das primäre Navigationsmenü und lege den Ort fest"
-
-#: lib/activation.php:95 lib/activation.php:98
-msgid "Add pages to menu?"
-msgstr "Seiten zum Menü hinzufügen?"
-
-#: lib/activation.php:103
-msgid "Add all current published pages to the Primary Navigation"
-msgstr ""
-"Füge alle derzeit veröffentlichten Seiten zur primären Navigation hinzu"
-
-#: lib/activation.php:126 lib/activation.php:147
-msgid "Home"
-msgstr "Startseite"
-
-#: lib/activation.php:173 lib/activation.php:176 lib/activation.php:190
-#: lib/init.php:13
-msgid "Primary Navigation"
-msgstr "Primäre Navigation"
-
-#: lib/extras.php:6
+#: lib/extras.php:31
 msgid "Continued"
 msgstr "Weiterlesen"
 
-#: lib/init.php:40
+#: lib/init.php:22
+msgid "Primary Navigation"
+msgstr "Primäre Navigation"
+
+#: lib/init.php:49
 msgid "Primary"
 msgstr "Primär"
 
-#: lib/init.php:49
+#: lib/init.php:58
 msgid "Footer"
 msgstr "Fußzeile"
 
-#: lib/titles.php:10
+#: lib/titles.php:13
 msgid "Latest Posts"
 msgstr "Neuste Artikel"
 
-#: lib/titles.php:19
-msgid "Daily Archives: %s"
-msgstr "Tägliche Archive: %s"
-
-#: lib/titles.php:21
-msgid "Monthly Archives: %s"
-msgstr "Monatliche Archive: %s"
-
-#: lib/titles.php:23
-msgid "Yearly Archives: %s"
-msgstr "Jährliche Archive: %s"
-
-#: lib/titles.php:26
-msgid "Author Archives: %s"
-msgstr "Autorarchive: %s"
-
-#: lib/titles.php:31
+#: lib/titles.php:18
 msgid "Search Results for %s"
 msgstr "Suchergebnisse für %s"
 
-#: lib/titles.php:33
+#: lib/titles.php:20
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
@@ -186,7 +81,7 @@ msgstr "Neuere Kommentare &rarr;"
 msgid "Comments are closed."
 msgstr "Kommentare sind geschlossen."
 
-#: templates/content-single.php:11
+#: templates/content-page.php:2 templates/content-single.php:11
 msgid "Pages:"
 msgstr "Seiten:"
 
@@ -203,31 +98,125 @@ msgid "Search"
 msgstr "Suche"
 
 #. Theme Name of the plugin/theme
-msgid "Roots Starter Theme"
-msgstr "Roots Starter Theme"
+msgid "Sage Starter Theme"
+msgstr "Sage Starter Theme"
 
 #. Theme URI of the plugin/theme
-msgid "http://roots.io/starter-theme/"
-msgstr "http://roots.io/starter-theme/"
+msgid "https://roots.io/sage/"
+msgstr "https://roots.io/sage/"
 
 #. Description of the plugin/theme
 msgid ""
-"Roots is a WordPress starter theme based on HTML5 Boilerplate & Bootstrap. "
-"<a href=\"https://github.com/roots/roots/contributors\">Contribute on "
-"GitHub</a>"
+"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+"\">Contribute on GitHub</a>"
 msgstr ""
-"Roots ist ein WordPress Starter Theme basierend auf HTML5 Boilerplate & "
-"Bootstrap. <a href=\"https://github.com/roots/roots/contributors\">Mach mit "
-"auf GitHub</a>"
+"Sage ist ein Wordpress Starter Theme. <a href=\"https://github.com/roots/sage"
+"\">Arbeite mit auf GitHub</a>"
 
 #. Author of the plugin/theme
 msgid "Roots"
 msgstr "Roots"
 
 #. Author URI of the plugin/theme
-msgid "http://roots.io/"
-msgstr "http://roots.io/"
+msgid "https://roots.io/"
+msgstr "https://roots.io/"
 
 #. Template Name of the plugin/theme
 msgid "Custom Template"
 msgstr "Eigene Vorlage"
+
+#~ msgid "It looks like this was the result of either:"
+#~ msgstr "Es sieht aus als sei dies das Ergebnis von entweder:"
+
+#~ msgid "a mistyped address"
+#~ msgstr "einer fehlerhaft eingegebenen Adresse"
+
+#~ msgid "an out-of-date link"
+#~ msgstr "einem veralteten Link"
+
+#~ msgid "&larr; Older posts"
+#~ msgstr "&larr; Ältere Artikel"
+
+#~ msgid "Newer posts &rarr;"
+#~ msgstr "Neuere Artikel &rarr;"
+
+#~ msgid "Theme Activation"
+#~ msgstr "Theme Aktivierung"
+
+#~ msgid "%s Theme Activation"
+#~ msgstr "%s Theme Aktivierung"
+
+#~ msgid ""
+#~ "These settings are optional and should usually be used only on a fresh "
+#~ "installation"
+#~ msgstr ""
+#~ "Diese Einstellungen sind optional und sollten normalerweise nur bei einer "
+#~ "frischen Installation benutzt werden"
+
+#~ msgid "Create static front page?"
+#~ msgstr "Statische Startseite anlegen?"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "No"
+#~ msgstr "Nein"
+
+#~ msgid "Create a page called Home and set it to be the static front page"
+#~ msgstr ""
+#~ "Erstelle eine Home genannte Seite und mache sie zur statischen Startseite"
+
+#~ msgid "Change permalink structure?"
+#~ msgstr "Permalinkstruktur ändern?"
+
+#~ msgid "Update permalink structure?"
+#~ msgstr "Permalinkstruktur aktualisieren?"
+
+#~ msgid "Change permalink structure to /&#37;postname&#37;/"
+#~ msgstr "Ändere die Permalinkstruktur zu /&#37;postname&#37;/"
+
+#~ msgid "Create navigation menu?"
+#~ msgstr "Navigationsmenü anlegen?"
+
+#~ msgid "Create the Primary Navigation menu and set the location"
+#~ msgstr "Erstelle das primäre Navigationsmenü und lege den Ort fest"
+
+#~ msgid "Add pages to menu?"
+#~ msgstr "Seiten zum Menü hinzufügen?"
+
+#~ msgid "Add all current published pages to the Primary Navigation"
+#~ msgstr ""
+#~ "Füge alle derzeit veröffentlichten Seiten zur primären Navigation hinzu"
+
+#~ msgid "Home"
+#~ msgstr "Startseite"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Tägliche Archive: %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Monatliche Archive: %s"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Jährliche Archive: %s"
+
+#~ msgid "Author Archives: %s"
+#~ msgstr "Autorarchive: %s"
+
+#~ msgid "Roots Starter Theme"
+#~ msgstr "Roots Starter Theme"
+
+#~ msgid "http://roots.io/starter-theme/"
+#~ msgstr "http://roots.io/starter-theme/"
+
+#~ msgid ""
+#~ "Roots is a WordPress starter theme based on HTML5 Boilerplate & "
+#~ "Bootstrap. <a href=\"https://github.com/roots/roots/contributors"
+#~ "\">Contribute on GitHub</a>"
+#~ msgstr ""
+#~ "Roots ist ein WordPress Starter Theme basierend auf HTML5 Boilerplate & "
+#~ "Bootstrap. <a href=\"https://github.com/roots/roots/contributors\">Mach "
+#~ "mit auf GitHub</a>"
+
+#~ msgid "http://roots.io/"
+#~ msgstr "http://roots.io/"
