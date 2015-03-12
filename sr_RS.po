@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: Translation to Serbian of Sage theme for WordPress\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: lautreamont <lautreamont33@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Language: Serbian\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Извините, тражена страница не постоји."
+
+#: base.php:14
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Користите <strong>застарели</strong> претраживач. Молимо вас да <a href="
+"\"http://browsehappy.com/\"> инсталирирате новију верзију претраживача</a>."
+
+#: functions.php:27
+msgid "Error locating %s for inclusion"
+msgstr "Грешка у проналажењу %s"
+
+#: index.php:5
+msgid "Sorry, no results were found."
+msgstr "Нема резултата претраге."
+
+#: lib/extras.php:31
+msgid "Continued"
+msgstr "Наставак"
+
+#: lib/init.php:22
+msgid "Primary Navigation"
+msgstr "Основна навигација"
+
+#: lib/init.php:49
+msgid "Primary"
+msgstr "Основно"
+
+#: lib/init.php:58
+msgid "Footer"
+msgstr "Подножје"
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr "Новији чланци"
+
+#: lib/titles.php:18
+msgid "Search Results for %s"
+msgstr "Резултат претраге за %s"
+
+#: lib/titles.php:20
+msgid "Not Found"
+msgstr "Није пронађено"
+
+#: templates/comments.php:9
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s одговор на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s одговора на &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Старији коментари"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Новији коментари &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Коментари су онемогућени."
+
+#: templates/content-page.php:2 templates/content-single.php:11
+msgid "Pages:"
+msgstr "Странице:"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Аутор"
+
+#: templates/searchform.php:2
+msgid "Search for:"
+msgstr "Претрага за:"
+
+#: templates/searchform.php:4 templates/searchform.php:6
+msgid "Search"
+msgstr "Претрага"
+
+#. Theme Name of the plugin/theme
+msgid "Sage Starter Theme"
+msgstr "Sage - почетна тема"
+
+#. Theme URI of the plugin/theme
+msgid "https://roots.io/sage/"
+msgstr "https://roots.io/sage/"
+
+#. Description of the plugin/theme
+msgid ""
+"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+"\">Contribute on GitHub</a>"
+msgstr ""
+"Sage је WordPress почетна тема. <a href=\"https://github.com/roots/sage"
+"\">Допринесите на GitHub-у</a>"
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
+
+#. Author URI of the plugin/theme
+msgid "https://roots.io/"
+msgstr "https://roots.io/"
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Прилагођена предложак"
