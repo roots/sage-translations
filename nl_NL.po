@@ -5,12 +5,13 @@ msgstr ""
 "Project-Id-Version: Roots Theme\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Roy Duineveld <roy@duineveld.me>\n"
+"Last-Translator: martinvd <martinvdpub@gmail.com>\n"
 "Language-Team: Roy Duineveld <roy@duineveld.me>\n"
 "MIME-Version: 1.0\n"
-"X-Generator: Poedit 1.5.5\n"
-"Language: Dutch\n"
+"X-Generator: Poedit 1.7.5\n"
+"Language: nl\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
@@ -72,7 +73,7 @@ msgstr "Permalink structuur veranderen?"
 
 #: lib/activation.php:100
 msgid "Update permalink structure?"
-msgstr "Permalink structuur updaten?"
+msgstr "Permalink structuur bijwerken?"
 
 #: lib/activation.php:106
 msgid "Change permalink structure to /&#37;postname&#37;/"
@@ -88,7 +89,7 @@ msgstr "Upload map updaten?"
 
 #: lib/activation.php:119
 msgid "Change uploads folder to /assets/ instead of /wp-content/uploads/"
-msgstr "Verander upload map  naar /assets/ instead of /wp-content/uploads/"
+msgstr "Verander upload map naar /assets/ in plaats van naar /wp-content/uploads/"
 
 #: lib/activation.php:124 lib/activation.php:126
 msgid "Create navigation menu?"
@@ -96,7 +97,7 @@ msgstr "Navigatie menu maken?"
 
 #: lib/activation.php:132
 msgid "Create the Primary Navigation menu and set the location"
-msgstr "Maak een hoofd menu en stel de lokatie in"
+msgstr "Maak een hoofd menu en stel de locatie in"
 
 #: lib/activation.php:137 lib/activation.php:139
 msgid "Add pages to menu?"
