@@ -14,7 +14,7 @@ msgstr ""
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
-msgstr "Извините, тражена страница не постоји."
+msgstr "Жао нам је, тражена страница не постоји."
 
 #: base.php:14
 msgid ""
@@ -30,7 +30,7 @@ msgstr "Грешка у проналажењу %s"
 
 #: index.php:5
 msgid "Sorry, no results were found."
-msgstr "Нема резултата претраге."
+msgstr "Жао нам је, претрага није дала резултате."
 
 #: lib/extras.php:31
 msgid "Continued"
@@ -54,7 +54,7 @@ msgstr "Новији чланци"
 
 #: lib/titles.php:18
 msgid "Search Results for %s"
-msgstr "Резултат претраге за %s"
+msgstr "Резултати претраге за %s"
 
 #: lib/titles.php:20
 msgid "Not Found"
@@ -121,4 +121,4 @@ msgstr "https://roots.io/"
 
 #. Template Name of the plugin/theme
 msgid "Custom Template"
-msgstr "Прилагођена предложак"
+msgstr "Прилагођени шаблон"
