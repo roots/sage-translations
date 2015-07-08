@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Sage\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Domen Ipavec <domen@ipavec.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: Slovenian\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Oprostite, stran, ki ste jo obiskali, ne obstaja."
+
+#: base.php:12
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Uporabljate <strong>zastarel</strong> brskalnik. Prosimo <a href=\"http://"
+"browsehappy.com/\">nadgradite vaš brskalnik</a>, da bo stran bolje prikazana."
+
+#: functions.php:25
+msgid "Error locating %s for inclusion"
+msgstr "Napaka pri iskanju %s za vstavljanje"
+
+#: index.php:5
+msgid "Sorry, no results were found."
+msgstr "Oprostite, ni bilo najdenih rezultatov."
+
+#: lib/extras.php:31
+msgid "Continued"
+msgstr "Več"
+
+#: lib/init.php:22
+msgid "Primary Navigation"
+msgstr "Primarna navigacija"
+
+#: lib/init.php:49
+msgid "Primary"
+msgstr "Primarno"
+
+#: lib/init.php:58
+msgid "Footer"
+msgstr "Noga"
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr "Zadnje objave"
+
+#: lib/titles.php:18
+msgid "Search Results for %s"
+msgstr "Rezultati iskanja %s"
+
+#: lib/titles.php:20
+msgid "Not Found"
+msgstr "Ne obstaja"
+
+#: templates/comments.php:9
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s odgovorov na &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s odgovor na &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s odgovora na &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s odgovori na &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Starejši komentarji"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Novejši komentarji &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Komentiranje ni omogočeno."
+
+#: templates/content-page.php:2 templates/content-single.php:11
+msgid "Pages:"
+msgstr "Strani:"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Od"
+
+#: templates/searchform.php:2
+msgid "Search for:"
+msgstr "Išči:"
+
+#: templates/searchform.php:4 templates/searchform.php:6
+msgid "Search"
+msgstr "Iskanje"
+
+#. Theme Name of the plugin/theme
+msgid "Sage Starter Theme"
+msgstr "Sage začetna tema"
+
+#. Theme URI of the plugin/theme
+msgid "https://roots.io/sage/"
+msgstr "https://roots.io/sage/"
+
+#. Description of the plugin/theme
+msgid ""
+"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+"\">Contribute on GitHub</a>"
+msgstr ""
+"Sage je WordPress začetna tema. <a href=\"https://github.com/roots/sage"
+"\">Prispevajte na GitHub-u</a>"
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
+
+#. Author URI of the plugin/theme
+msgid "https://roots.io/"
+msgstr "https://roots.io/"
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Predloga po meri"
