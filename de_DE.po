@@ -32,7 +32,7 @@ msgstr "Es trat ein Fehler beim Auffinden von %s für die Einbindung auf"
 
 #: index.php:5
 msgid "Sorry, no results were found."
-msgstr "Es tut uns leid aber es wurden keine Ergebnisse gefunden."
+msgstr "Es tut uns leid, aber es wurden keine Ergebnisse gefunden."
 
 #: lib/extras.php:31
 msgid "Continued"
