@@ -51,7 +51,7 @@ msgstr "Sidfot"
 
 #: lib/titles.php:13
 msgid "Latest Posts"
-msgstr "Senaste Inlägg"
+msgstr "Senaste inläggen"
 
 #: lib/titles.php:18
 msgid "Search Results for %s"
