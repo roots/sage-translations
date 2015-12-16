@@ -15,7 +15,7 @@ msgstr ""
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
-msgstr "Žao nam je, ali stranica koju su pokušavali da vidite ne postoji."
+msgstr "Žao nam je, ali stranica koju ste pokušavali vidjeti ne postoji."
 
 #: 404.php:7
 msgid "It looks like this was the result of either:"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: lib/activation.php:59 lib/activation.php:62
 msgid "Create static front page?"
-msgstr "Napravite statičnu početnu stranicu?"
+msgstr "Da napravim statičnu početnu stranicu?"
 
 #: lib/activation.php:64 lib/activation.php:76 lib/activation.php:88
 #: lib/activation.php:100
@@ -86,20 +86,20 @@ msgstr "Ne"
 #: lib/activation.php:67
 msgid "Create a page called Home and set it to be the static front page"
 msgstr ""
-"Napravite stranicu sa naslovom Početna i postavite je kao statičnu početna "
-"stranica"
+"Napravite stranicu sa naslovom Početna i postavite je kao statičnu početnu "
+"stranicu"
 
 #: lib/activation.php:71
 msgid "Change permalink structure?"
-msgstr "Promjeni permalink strukturu?"
+msgstr "Promijeni permalink strukturu?"
 
 #: lib/activation.php:74
 msgid "Update permalink structure?"
-msgstr "Update strukturu stalnih linkova?"
+msgstr "Obnovi strukturu stalnih linkova?"
 
 #: lib/activation.php:79
 msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Promjeni strukturu stalnih poveznica u /&#37;postname&#37;/"
+msgstr "Promijeni strukturu stalnih poveznica u /&#37;postname&#37;/"
 
 #: lib/activation.php:83 lib/activation.php:86
 msgid "Create navigation menu?"
@@ -115,7 +115,7 @@ msgstr "Dodaj stranice u meni?"
 
 #: lib/activation.php:103
 msgid "Add all current published pages to the Primary Navigation"
-msgstr "Dodaj sve dosada objavljene stranice u primarnu navigaciju"
+msgstr "Dodaj sve do sada objavljene stranice u primarnu navigaciju"
 
 #: lib/activation.php:126 lib/activation.php:147
 msgid "Home"
@@ -184,7 +184,7 @@ msgstr "Novi komentari &rarr;"
 
 #: templates/comments.php:31
 msgid "Comments are closed."
-msgstr "Komentari su onemogućeni."
+msgstr "Komentari su zatvoreni."
 
 #: templates/content-single.php:11
 msgid "Pages:"
@@ -196,7 +196,7 @@ msgstr "autor"
 
 #: templates/searchform.php:2
 msgid "Search for:"
-msgstr "Pretraga za:"
+msgstr "Traži:"
 
 #: templates/searchform.php:4 templates/searchform.php:6
 msgid "Search"
