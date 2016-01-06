@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: lt_LT\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Atsiprašome, bet puslapis kurį bandėte peržiūrėti neegzistuoja."
+
+#: base.php:14
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Jūs naudojate <strong>pasenusią</strong> naršyklę. Prašome <a href=\"http://"
+"browsehappy.com/\">atnaujinti savo naršyklę</a> korektiškam svetainės "
+"atvaizdavimui."
+
+#: functions.php:22
+msgid "Error locating %s for inclusion"
+msgstr "Įvyko klaida kviečiant %s"
+
+#: index.php:5 search.php:5
+msgid "Sorry, no results were found."
+msgstr "Atsiprašome, nerasta jokių rezultatų."
+
+#: lib/extras.php:31
+msgid "Continued"
+msgstr "Pratęsta"
+
+#: lib/setup.php:30
+msgid "Primary Navigation"
+msgstr "Pirminė navigacija"
+
+#: lib/setup.php:57
+msgid "Primary"
+msgstr "Pirminė"
+
+#: lib/setup.php:66
+msgid "Footer"
+msgstr "Poraštė"
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr "Naujausi įrašai"
+
+#: lib/titles.php:18
+msgid "Search Results for %s"
+msgstr "\"%s\" paieškos rezultatai:"
+
+#: lib/titles.php:20
+msgid "Not Found"
+msgstr "Nerasta"
+
+#: templates/comments.php:9
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s atsakymas &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s atsakymai &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s atsakymų &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; senesni komentarai"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Naujesni komentarai &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Komentavimas uždarytas."
+
+#: templates/content-page.php:2 templates/content-single.php:11
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Autorius"
+
+#. Theme Name of the plugin/theme
+msgid "Sage Starter Theme"
+msgstr "Sage Starter tema"
+
+#. Theme URI of the plugin/theme
+msgid "https://roots.io/sage/"
+msgstr "https://roots.io/sage/"
+
+#. Description of the plugin/theme
+msgid ""
+"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+"\">Contribute on GitHub</a>"
+msgstr ""
+"Sage yra Wordpress šabloninė tema. <a href=\"https://github.com/roots/sage"
+"\">Prisidėkite prie kūrimo GitHub'e</a>"
+
+#. Author of the plugin/theme
+msgid "Roots"
+msgstr "Roots"
+
+#. Author URI of the plugin/theme
+msgid "https://roots.io/"
+msgstr "https://roots.io/"
+
+#. Template Name of the plugin/theme
+msgid "Custom Template"
+msgstr "Pasirinktinis:"
