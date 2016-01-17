@@ -174,7 +174,7 @@ msgid "Update permalink structure?"
 msgstr "Permalinkstruktur aktualisieren?"
 
 msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Ändere die Permalinkstruktur zu /&#37;postname&#37;/"
+msgstr "Ändern Sie die Permalinkstruktur zu /&#37;postname&#37;/"
 
 msgid "Create navigation menu?"
 msgstr "Navigationsmenü anlegen?"
