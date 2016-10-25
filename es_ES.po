@@ -4,13 +4,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: Sage\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: March 31, 2015"
-"Last-Translator: Jaime Smeke"
-"Language-Team: untaljaime <hola@untaljai.me>\n"
+"PO-Revision-Date: 2016-10-25 16:56+0200\n"
 "MIME-Version: 1.0\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language: es_ES\n"
+"Last-Translator: Aitor Méndez <aitor@e451.net>\n"
+"Language-Team: \n"
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
@@ -34,7 +34,7 @@ msgstr "Disculpa, no se encontraron resultados."
 
 #: lib/extras.php:31
 msgid "Continued"
-msgstr "Continuado"
+msgstr "Continúa"
 
 #: lib/init.php:22
 msgid "Primary Navigation"
