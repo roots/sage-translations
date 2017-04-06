@@ -15,7 +15,7 @@ msgstr ""
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
 msgstr ""
-"Es tut uns leid aber die Seite, die Sie angucken wollten, existiert nicht."
+"Es tut uns leid, aber die Seite, die Sie ansehen wollten, existiert nicht."
 
 #: base.php:14
 msgid ""
@@ -126,7 +126,7 @@ msgid "Custom Template"
 msgstr "Eigene Vorlage"
 
 msgid "It looks like this was the result of either:"
-msgstr "Es sieht aus als sei dies das Ergebnis von entweder:"
+msgstr "Es sieht aus, als sei dies das Ergebnis von entweder:"
 
 msgid "a mistyped address"
 msgstr "einer fehlerhaft eingegebenen Adresse"
