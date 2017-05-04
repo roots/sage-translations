@@ -1,57 +1,56 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"MIME-Version: 1.0\n"
-"X-Generator: Poedit 1.6.10\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."
 msgstr "Désolé, cette page est introuvable."
 
-#: base.php:12
+#: base.php:14
 msgid ""
 "You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
 "browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
-"Vous utilisez une version obsolète de votre navigateur. Veuillez le  <a href="
-"\"http://browsehappy.com/\">mettre à jour</a> pour visionner votre site "
-"correctement."
+"Vous utilisez un navigateur obsolète. Veuillez le <a href=\"http://"
+"browsehappy.com/\">mettre à jour</a> pour visionner ce site correctement."
 
-#: functions.php:25
+#: functions.php:22
 msgid "Error locating %s for inclusion"
-msgstr "Erreurr localiser %s pour inclusion"
+msgstr "Erreur lors de la localisation de %s pour inclusion"
 
-#: index.php:5
+#: index.php:5 search.php:5
 msgid "Sorry, no results were found."
-msgstr "Désolé, rien n'a été trouvé."
+msgstr "Désolé, aucun résultat n&rsquo;a été trouvé."
 
 #: lib/extras.php:31
 msgid "Continued"
 msgstr "Suite"
 
-#: lib/init.php:22
+#: lib/setup.php:30
 msgid "Primary Navigation"
-msgstr "Navigation Primaire"
+msgstr "Navigation principale"
 
-#: lib/init.php:49
+#: lib/setup.php:57
 msgid "Primary"
-msgstr "Primaire"
+msgstr "Principale"
 
-#: lib/init.php:58
+#: lib/setup.php:66
 msgid "Footer"
 msgstr "Pied de page"
 
 #: lib/titles.php:13
 msgid "Latest Posts"
-msgstr "Articles Récents"
+msgstr "Articles récents"
 
 #: lib/titles.php:18
 msgid "Search Results for %s"
@@ -59,14 +58,14 @@ msgstr "Résultats pour %s"
 
 #: lib/titles.php:20
 msgid "Not Found"
-msgstr "Non Trouvé"
+msgstr "Non trouvé"
 
 #: templates/comments.php:9
 msgctxt "comments title"
 msgid "One response to &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
-msgstr[0] "Une réponse à &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s réponses à &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réponse à &laquo;&nbsp;%2$s&nbsp;&raquo;"
+msgstr[1] "%1$s réponses à &laquo;&nbsp;%2$s&nbsp;&raquo;"
 
 #: templates/comments.php:19
 msgid "&larr; Older comments"
@@ -82,23 +81,15 @@ msgstr "Commentaires fermés."
 
 #: templates/content-page.php:2 templates/content-single.php:11
 msgid "Pages:"
-msgstr "Pages:"
+msgstr "Pages&nbsp;:"
 
 #: templates/entry-meta.php:2
 msgid "By"
 msgstr "Par"
 
-#: templates/searchform.php:2
-msgid "Search for:"
-msgstr "Rechercher:"
-
-#: templates/searchform.php:4 templates/searchform.php:6
-msgid "Search"
-msgstr "Recherche"
-
 #. Theme Name of the plugin/theme
 msgid "Sage Starter Theme"
-msgstr "Sage Thème Starter"
+msgstr "Thème Sage Starter"
 
 #. Theme URI of the plugin/theme
 msgid "https://roots.io/sage/"
@@ -109,8 +100,8 @@ msgid ""
 "Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
 "\">Contribute on GitHub</a>"
 msgstr ""
-"Sage est un thème de démarrage WordPress (Starter Theme). <a href=\"https://"
-"github.com/roots/sage\">Contribuer sur GitHub</a>"
+"Sage est un thème de démarrage pour WordPress (Starter Theme). <a href="
+"\"https://github.com/roots/sage\">Contribuer sur GitHub</a>"
 
 #. Author of the plugin/theme
 msgid "Roots"
@@ -122,4 +113,10 @@ msgstr "https://roots.io/"
 
 #. Template Name of the plugin/theme
 msgid "Custom Template"
-msgstr "Custom Template "
+msgstr "Template personnalisé"
+
+#~ msgid "Search for:"
+#~ msgstr "Rechercher&nbsp;:"
+
+#~ msgid "Search"
+#~ msgstr "Recherche"
