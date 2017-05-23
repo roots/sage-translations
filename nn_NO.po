@@ -11,6 +11,7 @@ msgstr ""
 "X-Poedit-Language: Norwegian Nynorsk\n"
 "X-Poedit-Country: NORWAY\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"Language: nn_NO\n"
 
 #. Text in echo
 #: comments.php:72

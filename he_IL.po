@@ -17,6 +17,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ./templates\n"
 "X-Poedit-SearchPath-2: ./lib\n"
+"Language: he_IL\n"
 
 #: 404.php:5
 msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
