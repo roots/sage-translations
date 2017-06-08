@@ -11,6 +11,8 @@ msgstr ""
 "X-Poedit-Language: Traditional Chinese\n"
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: 404.php:4
 msgid "Sorry, but the page you were trying to view does not exist."

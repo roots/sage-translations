@@ -10,6 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "X-Poedit-Language: Vietnamese\n"
 "X-Poedit-Country: Vietnam\n"
+"Language: vi_VN\n"
 
 #. Text in echo
 #: comments.php:72
